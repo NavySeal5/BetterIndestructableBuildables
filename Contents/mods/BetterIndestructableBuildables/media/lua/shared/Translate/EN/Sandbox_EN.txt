@@ -6,23 +6,37 @@ Sandbox_EN = {
     Sandbox_BINDB_bigWireFence_tooltip = "Makes newly built Big Wire Fences Indestructable"
 
     Sandbox_BINDB_bigWireFence_metalPipes = "Big Wire Fence - Metal Pipes"
-    Sandbox_BINDB_bigWireFence_metalPipes_tooltip = "Amount of Metal Pipes needed to actually build."
-
     Sandbox_BINDB_bigWireFence_scrapMetal = "Big Wire Fence - Scrap Metal"
-    Sandbox_BINDB_bigWireFence_scrapMetal_tooltip = "Amount of Scrap Metal needed to actually build."
-
     Sandbox_BINDB_bigWireFence_wire = "Big Wire Fence - Wire"
-    Sandbox_BINDB_bigWireFence_wire_tooltip = "Amount of Wire needed to actually build."
+
+
+    Sandbox_BINDB_bigWireFenceGate = "Big Wire Fence Double Gate"
+    Sandbox_BINDB_bigWireFenceGate_tooltip = "Makes newly built Wire Fence Double Gates Indestructable"
+
+    Sandbox_BINDB_bigWireFenceGate_metalPipes = "Big Wire Fence Double Gate - Metal Pipes"
+    Sandbox_BINDB_bigWireFenceGate_scrapMetal = "Big Wire Fence Double Gate - Scrap Metal"
+    Sandbox_BINDB_bigWireFenceGate_wire = "Big Wire Fence Double Gate - Wire"
 
 
     Sandbox_BINDB_bigMetalFence = "Big Pole Fence"
-    Sandbox_BINDB_bigMetalFence_tooltip = "Makes newly built Big Pole Fence Indestructable - "
-
-    Sandbox_BINDB_bigMetalFence = "Big Pole Fence - Metal Pipes"
-    Sandbox_BINDB_bigMetalFence_tooltip = "Amount of Metal Pipes needed to actually build."
+    Sandbox_BINDB_bigMetalFence_tooltip = "Makes newly built Big Pole Fence Indestructable"
     
-    Sandbox_BINDB_bigMetalFence = "Big Pole Fence - Scrap Metal"
-    Sandbox_BINDB_bigMetalFence_tooltip = "Amount of Scrap Metal needed to actually build."
+    Sandbox_BINDB_bigMetalFence_metalPipes = "Big Pole Fence - Metal Pipes"
+    Sandbox_BINDB_bigMetalFence_scrapMetal = "Big Pole Fence - Scrap Metal"
+
+
+    Sandbox_BINDB_bigMetalFenceSingleGate = "Big Pole Fence Door"
+    Sandbox_BINDB_bigMetalFenceSingleGate_tooltip = "Makes newly built Metal Pole Single Doors Indestructable"
+    
+    Sandbox_BINDB_bigMetalFenceSingleGate_metalPipes = "Big Pole Fence Door - Metal Pipes"
+    Sandbox_BINDB_bigMetalFenceSingleGate_scrapMetal = "Big Pole Fence Door - Scrap Metal"
+    
+
+    Sandbox_BINDB_bigMetalFenceDoubleGate = "Big Double Pole Gate"
+    Sandbox_BINDB_bigMetalFenceDoubleGate_tooltip = "Makes newly built Metal Pole Single Doors Indestructable"
+
+    Sandbox_BINDB_bigMetalFenceDoubleGate_metalPipes = "Big Double Pole Gate - Metal Pipes"
+    Sandbox_BINDB_bigMetalFenceDoubleGate_scrapMetal = "Big Double Pole Gate - Scrap Metal"
 
 
     Sandbox_BINDB_metalWallL1 = "Metal Wall Lv 1"

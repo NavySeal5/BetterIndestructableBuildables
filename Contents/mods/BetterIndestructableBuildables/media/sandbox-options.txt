@@ -8,11 +8,10 @@ option BINDB.bigWireFence
     page = BINDB,
     translation = BINDB_bigWireFence,
 }
-
 option BINDB.bigWireFenceMetalPipes
 {
     type = integer,
-    min = 3,
+    min = 1,
     max = 99,
     default = 3,
 
@@ -22,7 +21,7 @@ option BINDB.bigWireFenceMetalPipes
 option BINDB.bigWireFenceScrapMetal
 {
     type = integer,
-    min = 4,
+    min = 1,
     max = 99,
     default = 4,
 
@@ -32,10 +31,146 @@ option BINDB.bigWireFenceScrapMetal
 option BINDB.bigWireFenceWire
 {
     type = integer,
-    min = 3,
+    min = 1,
     max = 99,
     default = 3,
 
     page = BINDB,
     translation = BINDB_bigWireFence_wire,
+}
+
+option BINDB.bigWireFenceGate
+{
+    type = boolean,
+    default = false,
+
+    page = BINDB,
+    translation = BINDB_bigWireFenceGate,
+}
+option BINDB.bigWireFenceGateMetalPipes
+{
+    type = integer,
+    min = 1,
+    max = 99,
+    default = 8,
+
+    page = BINDB,
+    translation = BINDB_bigWireFenceGate_metalPipes,
+}
+option BINDB.bigWireFenceGateScrapMetal
+{
+    type = integer,
+    min = 1,
+    max = 99,
+    default = 2,
+
+    page = BINDB,
+    translation = BINDB_bigWireFenceGate_scrapMetal,
+}
+option BINDB.bigWireFenceGateWire
+{
+    type = integer,
+    min = 1,
+    max = 99,
+    default = 4,
+
+    page = BINDB,
+    translation = BINDB_bigWireFenceGate_wire,
+}
+
+
+option BINDB.bigMetalFence
+{
+    type = boolean,
+    default = false,
+
+    page = BINDB,
+    translation = BINDB_bigMetalFence,
+}
+option BINDB.bigMetalFenceMetalPipes
+{
+    type = integer,
+    min = 1,
+    max = 99,
+    default = 5,
+
+    page = BINDB,
+    translation = BINDB_bigMetalFence_metalPipes,
+}
+option BINDB.bigMetalFenceScrapMetal
+{
+    type = integer,
+    min = 1,
+    max = 99,
+    default = 2,
+
+    page = BINDB,
+    translation = BINDB_bigMetalFence_scrapMetal,
+}
+
+option BINDB.bigMetalFenceSingleGate
+{
+    type = boolean,
+    default = false,
+
+    page = BINDB,
+    translation = BINDB_bigMetalFenceSingleGate,
+}
+option BINDB.bigMetalFenceSingleGateMetalPipes
+{
+    type = integer,
+    min = 1,
+    max = 99,
+    default = 5,
+
+    page = BINDB,
+    translation = BINDB_bigMetalFenceSingleGate_metalPipes,
+}
+option BINDB.bigMetalFenceSingleGateScrapMetal
+{
+    type = integer,
+    min = 1,
+    max = 99,
+    default = 4,
+
+    page = BINDB,
+    translation = BINDB_bigMetalFenceSingleGate_scrapMetal,
+}
+
+option BINDB.bigMetalFenceDoubleGate
+{
+    type = boolean,
+    default = false,
+
+    page = BINDB,
+    translation = BINDB_bigMetalFenceDoubleGate,
+}
+option BINDB.bigMetalFenceDoubleGateMetalPipes
+{
+    type = integer,
+    min = 1,
+    max = 99,
+    default = 10,
+
+    page = BINDB,
+    translation = BINDB_bigMetalFenceDoubleGate_metalPipes,
+}
+option BINDB.bigMetalFenceDoubleGateScrapMetal
+{
+    type = integer,
+    min = 1,
+    max = 99,
+    default = 4,
+
+    page = BINDB,
+    translation = BINDB_bigMetalFenceDoubleGate_scrapMetal,
+}
+
+option BINDB.logWall
+{
+     type = boolean,
+    default = false,
+
+    page = BINDB,
+    translation = BINDB_logWall,
 }
