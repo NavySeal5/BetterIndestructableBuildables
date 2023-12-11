@@ -1,0 +1,11 @@
+version=1
+id=3111166249
+title=Better Indestructable Buildables
+description=WARNING - This mod is currently VERY work in progress/testinng
+description=
+description=This mod allows you to make some of the ingame buildable walls indestructable for  zombies. 
+description=Sounds OP? Yes, thats why you can also edit the cost of raw materials easily via your Sandbox Setttings!
+description=
+description=Currently this is only a Proof of concept and only works for the "Big Wired Fence". Butt my plan is to allow this for all buildable vanilla Walls/Fences/Doors
+tags=Build 41;Building
+visibility=friendsOnly
