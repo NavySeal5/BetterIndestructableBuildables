@@ -1,0 +1,41 @@
+VERSION = 1,
+
+option BINDB.bigWireFence
+{
+    type = boolean,
+    default = false,
+
+    page = BINDB,
+    translation = BINDB_bigWireFence,
+}
+
+option BINDB.bigWireFenceMetalPipes
+{
+    type = integer,
+    min = 3,
+    max = 99,
+    default = 3,
+
+    page = BINDB,
+    translation = BINDB_bigWireFence_metalPipes,
+}
+option BINDB.bigWireFenceScrapMetal
+{
+    type = integer,
+    min = 4,
+    max = 99,
+    default = 4,
+
+    page = BINDB,
+    translation = BINDB_bigWireFence_scrapMetal,
+}
+option BINDB.bigWireFenceWire
+{
+    type = integer,
+    min = 3,
+    max = 99,
+    default = 3,
+
+    page = BINDB,
+    translation = BINDB_bigWireFence_wire,
+}

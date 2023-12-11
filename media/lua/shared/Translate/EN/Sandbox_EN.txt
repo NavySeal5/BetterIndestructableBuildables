@@ -1,0 +1,51 @@
+Sandbox_EN = {
+
+    Sandbox_BINDB = "Better Indestructable Buildables"
+
+    Sandbox_BINDB_bigWireFence = "Big Wire Fence"
+    Sandbox_BINDB_bigWireFence_tooltip = "Makes newly built Big Wire Fences Indestructable"
+
+    Sandbox_BINDB_bigWireFence_metalPipes = "Big Wire Fence - Metal Pipes"
+    Sandbox_BINDB_bigWireFence_metalPipes_tooltip = "Amount of Metal Pipes needed to actually build."
+
+    Sandbox_BINDB_bigWireFence_scrapMetal = "Big Wire Fence - Scrap Metal"
+    Sandbox_BINDB_bigWireFence_scrapMetal_tooltip = "Amount of Scrap Metal needed to actually build."
+
+    Sandbox_BINDB_bigWireFence_wire = "Big Wire Fence - Wire"
+    Sandbox_BINDB_bigWireFence_wire_tooltip = "Amount of Wire needed to actually build."
+
+
+    Sandbox_BINDB_bigMetalFence = "Big Pole Fence"
+    Sandbox_BINDB_bigMetalFence_tooltip = "Makes newly built Big Pole Fence Indestructable - "
+
+    Sandbox_BINDB_bigMetalFence = "Big Pole Fence - Metal Pipes"
+    Sandbox_BINDB_bigMetalFence_tooltip = "Amount of Metal Pipes needed to actually build."
+    
+    Sandbox_BINDB_bigMetalFence = "Big Pole Fence - Scrap Metal"
+    Sandbox_BINDB_bigMetalFence_tooltip = "Amount of Scrap Metal needed to actually build."
+
+
+    Sandbox_BINDB_metalWallL1 = "Metal Wall Lv 1"
+    Sandbox_BINDB_metalWallL1_tooltip = "Makes newly built  Metal Wall Lv 1 Indestructable"
+
+
+    Sandbox_BINDB_metalWallL2 = "Metal Wall Lv 2"
+    Sandbox_BINDB_metalWallL2_tooltip = "Makes newly built  Metal Wall Lv 2 Indestructable"
+
+
+    Sandbox_BINDB_logWall = "Log Wall"
+    Sandbox_BINDB_logWall_tooltip = "Makes newly built Log Wall Indestructable"
+
+
+    Sandbox_BINDB_woodWallL1 = "Wood Wall Lv 1"
+    Sandbox_BINDB_woodWallL1_tooltip = ""Makes newly built Wood Wall Lv 1 Indestructable"
+
+
+    Sandbox_BINDB_woodWallL2 = "Wood Wall Lv 2"
+    Sandbox_BINDB_woodWallL2_tooltip = "Makes newly built Wood Wall Lv 2 Indestructable"
+
+
+    Sandbox_BINDB_woodWallL3 = "Wood Wall Lv 3"
+    Sandbox_BINDB_woodWallL3_tooltip = "Makes newly built Wood Wall Lv 3 Indestructable"
+
+}
