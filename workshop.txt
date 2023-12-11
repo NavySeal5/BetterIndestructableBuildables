@@ -1,11 +1,53 @@
 version=1
 id=3111166249
 title=Better Indestructable Buildables
-description=WARNING - This mod is currently VERY work in progress/testinng
+description=This mod allows you to make some of the ingame buildable walls indestructable for  zombies.
+
+description=Sounds OP? Yes, but for some of the objects you can now adjust their cost to ease your mind!
+
 description=
-description=This mod allows you to make some of the ingame buildable walls indestructable for  zombies. 
-description=Sounds OP? Yes, thats why you can also edit the cost of raw materials easily via your Sandbox Setttings!
+
+description=[h1]Currently Supported[/h1]
+
+description=[h2]Metalworking[/h2]
+
+description=Any Supported object here can have their cost adjusted in your Sandbox-Settings
+
+description=[list]
+
+description=[*]Big Wire Fence
+
+description=[*]Big Wire Fence Double Door
+
+description=[*]Big Pole Fence
+
+description=[*]Big Pole Fence Single door
+
+description=[*]Big Pole Fence Double Door
+
+description=[/list]
+
+description=[h2]Carpentry[/h2]
+
+description=Sadly due to how the code differs compared to metalworking, those can not have their cost adjusted for now
+
+description=[list]
+
+description=[*]Log Wall
+
+description=[/list]
+
+description=[h1]How to use?[/h1]
+
+description=Simply check your Sandbox-Settings and edit the corresponding setting
+
+description=If you Add this to and existing game nothing will change, unless you have a mod that lets you edit your settings.
+
+description=In Singleplayer, if you change any setting after the game already started, make sure to reload the game after you changed any settings.
+
 description=
-description=Currently this is only a Proof of concept and only works for the "Big Wired Fence". Butt my plan is to allow this for all buildable vanilla Walls/Fences/Doors
+
+description=[i]Should[/i] work fine in Multiplayer
+
 tags=Build 41;Building
-visibility=friendsOnly
+visibility=public
