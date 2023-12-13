@@ -105,24 +105,6 @@ ISBlacksmithMenu.onDoublePoleDoor = function(...)
 end
 
 --#################################################################
--- Log Wall
---#################################################################
-local original_onLogWall = ISBuildMenu.onLogWall
-ISBuildMenu.onLogWall = function(...)
-    local original_ISWoodenWallNew = ISWoodenWall.new
-    local actual_wall_var = nil
-    ISWoodenWall.new = function(...)
-        actual_wall_var = original_ISWoodenWallNew(...)
-        if SandboxVars.BINDB.logWall then
-            actual_wall_var.isThumpable = false
-        end
-        return actual_wall_var
-    end
-    original_onLogWall(...)
-    ISWoodenWall.new = original_ISWoodenWallNew
-end
-
---#################################################################
 -- Metal Wall Lv1
 --#################################################################
 
@@ -130,19 +112,8 @@ end
 -- Metal Wall Lv2
 --#################################################################
 
---#################################################################
--- Wood Wall Lv1
---#################################################################
 
---#################################################################
--- Wood Wall Lv2
---#################################################################
-
---#################################################################
--- Wood Wall Lv3
---#################################################################
-
--- This Part takes care of injecting the new configured values into the Metalworking contextmenu, otherwise it would only use the default vanilla costs
+-- Patching Metalworking tooltips
 local original_checkMetalWeldingFurnitures = ISBlacksmithMenu.checkMetalWeldingFurnitures
 ISBlacksmithMenu.checkMetalWeldingFurnitures = function(metalPipes, smallMetalSheet, metalSheet, hinge, scrapMetal, torchUse, skill, player, toolTip, metalBar, wire)
     --print(toolTip.name)

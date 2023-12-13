@@ -1,0 +1,22 @@
+VERSION = 1,
+
+
+option BINDB.logWallLogs
+{
+    type = integer,
+    min = 1,
+    max = 99,
+    default = 4,
+    page = BINDB,
+    translation = BINDB_logWall_logs,
+}
+option BINDB.logWallRopes
+{
+    type = integer,
+    min = 1,
+    max = 99,
+    default = 4,
+
+    page = BINDB,
+    translation = BINDB_logWall_ropes,
+}

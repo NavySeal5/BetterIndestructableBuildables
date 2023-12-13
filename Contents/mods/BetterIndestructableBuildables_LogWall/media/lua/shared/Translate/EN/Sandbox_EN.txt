@@ -1,0 +1,16 @@
+Sandbox_EN = {
+
+    Sandbox_BINDB_logWall_logs = "Log Wall - Logs"
+    Sandbox_BINDB_logWall_logs_tooltip = "Amount of Logs to build"
+
+
+    Sandbox_BINDB_logWall_ropes = "Log Wall - Ropes"
+    Sandbox_BINDB_logWall_ropes_tooltip = "Amount of Sheet/Ropes and or Twine to build. If using actual rope, the amount needed is half of this value"
+
+
+    Sandbox_BINDB_woodenDoor_planks = "Wooden Door - Planks"
+    Sandbox_BINDB_woodenDoor_nails = "Wooden Door - Nails"
+
+    Sandbox_BINDB_woodenDoubleDoor_planks = "Wooden Double Door - Planks"
+    Sandbox_BINDB_woodenDoubleDoor_nails = "Wooden Double Door - Nails"
+}

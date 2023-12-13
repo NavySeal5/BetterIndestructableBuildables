@@ -39,16 +39,22 @@ Sandbox_EN = {
     Sandbox_BINDB_bigMetalFenceDoubleGate_scrapMetal = "Big Double Pole Gate - Scrap Metal"
 
 
-    Sandbox_BINDB_metalWallL1 = "Metal Wall Lv 1"
-    Sandbox_BINDB_metalWallL1_tooltip = "Makes newly built  Metal Wall Lv 1 Indestructable"
-
-
-    Sandbox_BINDB_metalWallL2 = "Metal Wall Lv 2"
-    Sandbox_BINDB_metalWallL2_tooltip = "Makes newly built  Metal Wall Lv 2 Indestructable"
-
-
     Sandbox_BINDB_logWall = "Log Wall"
     Sandbox_BINDB_logWall_tooltip = "Makes newly built Log Wall Indestructable"
+
+
+    Sandbox_BINDB_woodenDoor = "Wooden Door"
+    Sandbox_BINDB_woodenDoor_tooltip = "Makes newly built Wooden Door Indestructable"
+
+    Sandbox_BINDB_woodenDoor_planks = "Wooden Door - Planks"
+    Sandbox_BINDB_woodenDoor_nails = "Wooden Door - Nails"
+
+
+    Sandbox_BINDB_woodenDoubleDoor = "Wooden Double Door"
+    Sandbox_BINDB_woodenDoubleDoor_tooltip = "Makes newly built Wooden Double Door Indestructable"
+
+    Sandbox_BINDB_woodenDoubleDoor_planks = "Wooden Double Door - Planks"
+    Sandbox_BINDB_woodenDoubleDoor_nails = "Wooden Double Door - Nails"
 
 
     Sandbox_BINDB_woodWallL1 = "Wood Wall Lv 1"
@@ -61,5 +67,13 @@ Sandbox_EN = {
 
     Sandbox_BINDB_woodWallL3 = "Wood Wall Lv 3"
     Sandbox_BINDB_woodWallL3_tooltip = "Makes newly built Wood Wall Lv 3 Indestructable"
+
+
+    Sandbox_BINDB_metalWallL1 = "Metal Wall Lv 1"
+    Sandbox_BINDB_metalWallL1_tooltip = "Makes newly built  Metal Wall Lv 1 Indestructable"
+
+
+    Sandbox_BINDB_metalWallL2 = "Metal Wall Lv 2"
+    Sandbox_BINDB_metalWallL2_tooltip = "Makes newly built  Metal Wall Lv 2 Indestructable"
 
 }

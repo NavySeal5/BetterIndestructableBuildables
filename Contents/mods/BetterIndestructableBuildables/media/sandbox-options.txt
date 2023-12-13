@@ -166,6 +166,65 @@ option BINDB.bigMetalFenceDoubleGateScrapMetal
     translation = BINDB_bigMetalFenceDoubleGate_scrapMetal,
 }
 
+option BINDB.woodenDoor
+{
+    type = boolean,
+    default = false,
+
+    page = BINDB,
+    translation = BINDB_woodenDoor,
+}
+option BINDB.woodenDoorPlanks
+{
+    type = integer,
+    min = 1,
+    max = 99,
+    default = 4,
+
+    page = BINDB,
+    translation = BINDB_woodenDoor_planks,
+}
+option BINDB.woodenDoorNails
+{
+    type = integer,
+    min = 1,
+    max = 99,
+    default = 4,
+
+    page = BINDB,
+    translation = BINDB_woodenDoor_nails,
+}
+
+option BINDB.woodenDoubleDoor
+{
+    type = boolean,
+    default = false,
+
+    page = BINDB,
+    translation = BINDB_woodenDoubleDoor,
+}
+
+option BINDB.woodenDoubleDoorPlanks
+{
+    type = integer,
+    min = 1,
+    max = 99,
+    default = 12,
+
+    page = BINDB,
+    translation = BINDB_woodenDoubleDoor_planks,
+}
+option BINDB.woodenDoubleDoorNails
+{
+    type = integer,
+    min = 1,
+    max = 99,
+    default = 12,
+
+    page = BINDB,
+    translation = BINDB_woodenDoubleDoor_nails,
+}
+
 option BINDB.logWall
 {
      type = boolean,
